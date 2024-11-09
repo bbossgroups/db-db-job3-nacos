@@ -130,7 +130,7 @@ configure(allprojects) { project ->
         //api group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
         //mysql 5.x依赖
 
-        api 'mysql:mysql-connector-java:8.0.33'
+        api 'com.mysql:mysql-connector-j:9.1.0'
         api(
                 //[group: 'org.elasticsearch.plugin', name: 'jdbc', version: "6.3.2", transitive: true],
                 [group: 'com.bbossgroups', name: 'bboss-spring-boot3-starter', version: "${bboss_starter_version}", transitive: true],
